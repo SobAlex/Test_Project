@@ -1,0 +1,84 @@
+.main {
+  margin-bottom: 30px;
+}
+.container {
+}
+.main-content {
+  padding: 0 15px;
+}
+.main-top {
+}
+.main-text {
+  &__title {
+    line-height: 1.2;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  &__description {
+    margin-bottom: 20px;
+  }
+}
+.main-centre {
+  &__input-block {
+  }
+  &__checkbox-block {
+  }
+}
+.main-input-form {
+  margin-bottom: 25px;
+  &__label {
+    display: block;
+  }
+  &__input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  &__input:last-child {
+    margin-bottom: 0;
+  }
+}
+.main-checkbox-form {
+
+  fieldset {
+    margin-bottom: 20px;
+  }
+
+  .fieldset {
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  small {
+    display: block;
+    line-height: 1.2;
+    margin-top: 7px;
+  }
+
+  &__radio {
+  }
+  &__label {
+    margin-right: 30px;
+  }
+  &__label:last-child {
+    margin-right: 0;
+  }
+  &__checkbox {
+  }
+  &__btn {
+    color: firebrick;
+    background-color: transparent;
+
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid firebrick;
+
+    cursor: pointer;
+  }
+
+  &__btn:hover {
+    color: #fff;
+    background-color: firebrick;
+  }
+}

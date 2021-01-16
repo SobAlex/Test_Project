@@ -1,0 +1,91 @@
+.footer {
+  background-color: $bcg-color;
+  color: $textcolorlight;
+
+  padding-bottom: 10px;
+}
+.container {
+}
+.footer-content {
+  padding: 0 15px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 0;
+  margin-bottom: 15px;
+  border-bottom: 1px solid gray;
+}
+.footer-brand {
+}
+.footer-social {
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__item {
+    margin-right: 10px;
+  }
+  &__link {
+    display: block;
+    width: 35px;
+  }
+}
+.footer-bottom {
+}
+.footer-store {
+
+  &__list {
+  }
+  &__item {
+    width: 130px;
+  }
+  &__link {
+
+  }
+}
+.footer-info {
+  margin-bottom: 20px;
+  &__list {
+  }
+  &__item {
+  }
+  &__link {
+    display: block;
+
+    color: $textcolorlight;
+    margin-bottom: 20px;
+  }
+  &__polytic {
+    font-size: 10px;
+  }
+}
+.footer-nav {
+  font-size: 14px;
+  margin-bottom: 20px;
+  &__list {
+  }
+  &__item {
+  }
+  &__item span {
+    color: firebrick;
+  }
+  &__link {
+    color: $textcolorlight;
+    padding: 10px 0;
+  }
+}
+.footer-madein {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  font-size: 12px;
+  &__text {
+    margin-right: 5px;
+  }
+  &__img {
+    width: 30%;
+  }
+}

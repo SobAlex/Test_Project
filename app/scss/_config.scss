@@ -2,7 +2,8 @@
 
 $bcg-color: #2a2a2a; // Background Color
 $fontsize: 18px; // Body Font Size
-$textcolor: #2a2a2a; // Text Color
+$textcolordark: #2a2a2a; // Text Color
+$textcolorlight: #fff; // Text Color
 $system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
 $roboto: Roboto, sans-serif; // Roboto Font Family
 $sfuidisplay: SFUIDisplay, sans-serif; // SFUIDisplay Font Family
@@ -73,7 +74,19 @@ body {
 	position: relative;
 	line-height: 1.65;
 	overflow-x: hidden;
-	color: $textcolor;
+	color: $textcolordark;
+}
+
+.container {
+
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	width: 100%;
 }
 
 a {
