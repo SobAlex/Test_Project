@@ -1,23 +1,275 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="ru">
 
 <head>
 
 	<meta charset="utf-8">
-	<title>OptimizedHTML 5</title>
-	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+	<title>Brands stories</title>
+	<meta name="description" content="Brands stories">
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" href="img/favicon.png">
-	<meta property="og:image" content="img/dest/preview.jpg">
+<!--	<meta property="og:image" content="img/dest/preview.jpg">-->
 	<link rel="stylesheet" href="css/app.min.css">
 
 </head>
 
 <body>
 
+<div class="wrapper">
 
+	<!-- header -->
+	<header class="header">
+		<div class="container">
+			<div class="header-content">
+				<div class="header-top">
+					<div class="header-lang">
+						<ul class="header-lang__list">
+							<li class="header-lang__item">
+								<a class="header-lang__link" href="#">RU</a>
+							</li>
 
-	<script src="js/app.min.js"></script>
+							<li class="header-lang__item">
+								<a class="header-lang__link" href="#">EN</a>
+							</li>
 
+							<li class="header-lang__item">
+								<a class="header-lang__link" href="#">JP</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="header-search">
+						<form action="/" class="header-search__form">
+							<input class="header-search__input"
+										 type="search"
+										 id="site-search"
+										 name="input-search"
+										 aria-label="Search through site content">
+
+							<button class="header-search__btn"
+											aria-label="search">
+								<img class="header-search__icon" src="images/src/loupe.svg" alt="search">
+							</button>
+						</form>
+					</div>
+				</div>
+
+				<div class="header-centre">
+					<div class="header-logo">
+						<img class="header-logo__img" src="#" alt="logo">
+					</div>
+
+					<nav class="header-nav">
+						<ul class="header-nav__list">
+							<li class="header-nav__item">
+								<a href="" class="header-nav__link">О нас</a>
+							</li>
+
+							<li class="header-nav__item">
+								<a href="" class="header-nav__link">Брэнды</a>
+							</li>
+
+							<li class="header-nav__item">
+								<a href="" class="header-nav__link">Как добраться</a>
+							</li>
+
+							<li class="header-nav__item">
+								<a href="" class="header-nav__link">Акции</a>
+							</li>
+
+							<li class="header-nav__item">
+								<a href="" class="header-nav__link">BS Club</a>
+							</li>
+
+							<li class="header-nav__item">
+								<a href="" class="header-nav__link">Арендаторам</a>
+							</li>
+						</ul>
+					</nav>
+
+					<div class="header-social">
+						<ul class="header-social__list">
+							<li class="header-social__item">
+								<a class="header-social__link" href="#">VK</a>
+							</li>
+
+							<li class="header-social__item">
+								<a class="header-social__link" href="#">FB</a>
+							</li>
+
+							<li class="header-social__item">
+								<a class="header-social__link" href="#">INST</a>
+							</li>
+						</ul>
+
+						<button class="header-social__subscribe-btn">Подписаться на новости</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- main -->
+	<main class="main">
+		<div class="container">
+			<div class="main-content">
+				<div class="main-top">
+					<div class="main-text">
+						<h1 class="main-text__title">Настройте вашу персональную рассылку</h1>
+
+						<p class="main-text__description">Заполните короткую анкету чтобы получить информацию, которая вам интересна и не пропустить самые выгодные предложения!</p>
+					</div>
+				</div>
+
+				<div class="main-centre">
+					<div class="main-centre__input-block">
+						<form class="main-input-form" action="/">
+							<label class="main-input-form__label" for="input-name">Имя</label>
+							<input class="main-input-form__input" type="text" id="input-name" name="name"
+										 aria-label="Input name" placeholder="Иванов Иван" autofocus>
+
+							<label class="main-input-form__label" for="input-phone">Телефон</label>
+							<input class="main-input-form__input" type="number" id="input-phone" name="phone"
+										 aria-label="Input phone number" placeholder="+7 999 123 87 87">
+
+							<label class="main-input-form__label" for="input-born">Дата рождения</label>
+							<input class="main-input-form__input" type="date" id="input-born" name="born"
+										 aria-label="Input birthday">
+
+							<label class="main-input-form__label" for="input-mail">Подтвердите email</label>
+							<input class="main-input-form__input" type="email" id="input-mail" name="mail"
+										 aria-label="Input mail" placeholder="ivanovivan@mail.ru">
+						</form>
+					</div>
+
+					<div class="main-centre__checkbox-block">
+						<form class="main-checkbox-form" action="/">
+							<fieldset>
+								<legend>Пол</legend>
+								<input class="main-checkbox-form__radio" type="radio" name="sex" value="men" id="check-men">
+								<label class="main-checkbox-form__label" for="check-men">Мужской</label>
+
+								<input class="main-checkbox-form__radio" type="radio" name="sex" value="women" id="check-women">
+								<label class="main-checkbox-form__label" for="check-women">Женский</label>
+							</fieldset>
+
+							<fieldset>
+								<legend>Что бы вы хотели получать в рассылке?</legend>
+								<input class="main-checkbox-form__checkbox" type="checkbox" name="subscribe-checkbox" value="Полезный контент" id="check-content" checked>
+								<label class="main-checkbox-form__label" for="check-content">Полезный контент</label>
+
+								<input class="main-checkbox-form__checkbox" type="checkbox" name="subscribe-checkbox" value="Коллекция от брендов" id="check-brands" checked>
+								<label class="main-checkbox-form__label" for="check-brands">Коллекция от брендов</label>
+
+								<input class="main-checkbox-form__checkbox" type="checkbox" name="subscribe-checkbox" value="Акции и новости" id="check-news" checked>
+								<label class="main-checkbox-form__label" for="check-news">Акции и новости</label>
+							</fieldset>
+
+							<button class="main-checkbox-form__btn" type="submit" aria-labelledby="submit form">Сохранить мои настройки</button>
+
+							<p>
+								<small>
+									Нажимая на кнопку, вы соглашаетесь с Политикой обработки персональных данных
+								</small>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+<!-- footer	-->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-top">
+					<div class="footer-brand">brands<span>&rsquo;</span> stories
+					</div>
+
+					<div class="footer-social">
+						<ul class="footer-social__list">
+							<li class="footer-social__item">
+								<a class="footer-social__link" href="#">VK</a>
+							</li>
+
+							<li class="footer-social__item">
+								<a class="footer-social__link" href="#">FB</a>
+							</li>
+
+							<li class="footer-social__item">
+								<a class="footer-social__link" href="#">INST</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					<div class="footer-store">
+						<ul class="footer-store__list">
+							<li class="footer-store__item">
+								<a class="footer-store__link" href="#">App Store</a>
+							</li>
+
+							<li class="footer-store__item">
+								<a class="footer-store__link" href="#">Google Play</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-info">
+						<ul class="footer-info__list">
+							<li class="footer-info__item">
+								<a class="footer-info__link" href="tel:73432159220">+7 343 215-92-20</a>
+							</li>
+						</ul>
+
+						<p class="footer-info__polytic">Пользуясь сайтом вы соглашаетесь<br>на орабтку персональных данных</p>
+					</div>
+
+					<div class="footer-nav">
+						<ul class="footer-nav__list">
+							<li class="footer-nav__item">
+								<a href="" class="footer-nav__link">О нас</a>
+							</li>
+
+							<li class="footer-nav__item">
+								<a href="" class="footer-nav__link">Брэнды</a>
+							</li>
+
+							<li class="footer-nav__item">
+								<a href="" class="footer-nav__link">Как добраться</a>
+							</li>
+
+							<li class="footer-nav__item">
+								<a href="" class="footer-nav__link">Акции</a>
+							</li>
+
+							<li class="footer-nav__item">
+								<a href="" class="footer-nav__link"><span>BS CLub</span></a>
+							</li>
+
+							<li class="footer-nav__item">
+								<a href="" class="footer-nav__link">Арендаторам</a>
+							</li>
+
+							<li class="footer-nav__item">
+								<a href="" class="footer-nav__link">Вакансии</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-madein">
+						<p class="footer-madein__text">сделано в
+							<img class="footer-madein__img" src="#" alt="PXL Pro">
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/app.min.js"></script>
 </body>
 </html>
