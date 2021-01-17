@@ -5,6 +5,11 @@
 }
 
 .header-background {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 60;
+
   background-color: $bcg-color;
 }
 
@@ -35,14 +40,25 @@
   &__form {
   }
   &__input {
-    display: none;
+    padding: 6px;
+    position: relative;
+    top: -4px;
+    right: -500px;
+    transition: right 0.3s ease-in;
   }
   &__btn {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 5;
+
     width: 20px;
     height: 40px;
 
     background-color: transparent;
     border: none;
+
+    cursor: pointer;
   }
   &__icon {
     width: 100%;
@@ -84,6 +100,11 @@
 }
 
 .burger-menu {
+  position: relative;
+  z-index: 50;
+  top: 0px;
+  right: 0px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -103,8 +124,12 @@
 }
 
 .header-nav {
-  display: none;
+  position: absolute;
+  top: -500px;
+  left: 0;
   width: 100%;
+
+  transition: top 0.3s ease-in;
 
   &__list {
 

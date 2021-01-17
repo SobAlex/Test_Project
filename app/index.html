@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body class="no-js">
 
 <div class="wrapper">
 
@@ -48,7 +48,8 @@
                          aria-label="Search through site content">
 
                   <button class="header-search__btn"
-                          aria-label="search">
+                          aria-label="search"
+                  id="search-btn">
                     <img class="header-search__icon" src="images/dest/loupe.svg" alt="search">
                   </button>
                 </form>
@@ -65,13 +66,13 @@
           </div>
 
           <div class="header-nav-col">
-            <div class="burger-menu">
+            <div class="burger-menu" id="burger-menu">
               <span class="burger-menu__line"></span>
               <span class="burger-menu__line"></span>
               <span class="burger-menu__line"></span>
             </div>
 
-            <nav class="header-nav">
+            <nav class="header-nav" id="header-nav">
               <ul class="header-nav__list">
                 <li class="header-nav__item">
                   <a href="" class="header-nav__link">О нас</a>
