@@ -67,10 +67,15 @@ fieldset {
 	border: none;
 }
 
+//html {
+//	height: 100%;
+//}
+
 body {
 	font-family: $sfuidisplay;
 	font-size: $fontsize;
 	min-width: 320px;
+	height: 100%;
 	position: relative;
 	line-height: 1.65;
 	overflow-x: hidden;
