@@ -40,12 +40,12 @@
   &__form {
   }
   &__input {
+    width: 127px;
     padding: 6px;
     position: relative;
     top: -4px;
-    right: -600px;
+    left: 0;
     opacity: 0;
-    transition: right 0.3s ease-in;
     transition: opacity 0.4s ease;
   }
   &__btn {
@@ -58,6 +58,7 @@
     height: 40px;
 
     padding: 0 10px;
+    margin-left: 5px;
 
     background-color: transparent;
     border: none;
