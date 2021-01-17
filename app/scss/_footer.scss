@@ -2,7 +2,7 @@
   background-color: $bcg-color;
   color: $textcolorlight;
 
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 .container {
 }
@@ -33,8 +33,7 @@
     width: 35px;
   }
 }
-.footer-bottom {
-}
+
 .footer-store {
 
   &__list {
@@ -73,8 +72,10 @@
     color: firebrick;
   }
   &__link {
+    display: block;
+
     color: $textcolorlight;
-    padding: 10px 0;
+    padding: 5px 0;
   }
 }
 .footer-madein {
